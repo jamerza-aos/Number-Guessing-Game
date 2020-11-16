@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Number Guessing Game 1-100</h1>
+<section>
+    <div class="how">
+        <p>in how many rounds you think you can guess the number ??</p>
+        <form>
+            <div id="rounds"> 
+                <input type="radio" name="rund" id="vier" class="vier"  checked>
+                    <label class="vier">4</label>
+                <input type="radio" name="rund" id="fünf" class="funf" >
+                    <label  class="funf"  >5</label>
+                    <br>
+                <input type="radio" name="rund" id="sechs" class="sechs">
+                    <label class="sechs">6</label>
+                <input type="radio" name="rund" class="costum"  id="costum" onclick="costum2()">
+                    <label >costum</label>
+                <input type="number" name="" id="costum1" >
+            </div>
+        </form>
+    </div>
+        <div id="play">
+                <input type="number" name="" id="num">
+                <button onclick="guessIt()" id="play1">guess</button>
+        </div>
+        <div id="result"></div>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
